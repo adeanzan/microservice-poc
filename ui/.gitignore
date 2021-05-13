@@ -1,0 +1,12 @@
+/build
+bootstrap.*
+classic.json*
+modern.json*
+.sencha
+
+# IDE files
+.idea
+
+
+# External resources
+/ext
