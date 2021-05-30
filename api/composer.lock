@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff7e5e62338c06804ca48a2779640915",
+    "content-hash": "cde587270596c42d16a0df5391e20675",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2735,12 +2735,49 @@
                 }
             ],
             "time": "2021-04-29T20:47:09+00:00"
+        },
+        {
+            "name": "zan/doctrine-bundle",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zan/doctrine-bundle.git",
+                "reference": "c881865b1522ce9fa565a7a9c1690cf39dba8674"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zan/doctrine-bundle/zipball/c881865b1522ce9fa565a7a9c1690cf39dba8674",
+                "reference": "c881865b1522ce9fa565a7a9c1690cf39dba8674",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "default-branch": true,
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Zan\\DoctrineBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Doctrine add-ons including support for large data sets",
+            "support": {
+                "issues": "https://github.com/zan/doctrine-bundle/issues",
+                "source": "https://github.com/zan/doctrine-bundle/tree/main"
+            },
+            "time": "2021-05-30T17:35:07+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "zan/doctrine-bundle": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
