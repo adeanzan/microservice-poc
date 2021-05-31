@@ -1,0 +1,10 @@
+http://:3000 {
+  root * ../../
+  
+  try_files ui/app/{path}/index.html ui/app/{path} ui/{path} api/public/index.php
+
+  file_server browse
+
+  #php_fastcgi unix//var/run/php/php8.0-fpm.sock
+  php_fastcgi 127.0.0.1:9900
+}
