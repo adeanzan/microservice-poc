@@ -274,8 +274,5 @@
     },
     "symfony/yaml": {
         "version": "v5.2.7"
-    },
-    "zan/doctrine-bundle": {
-        "version": "dev-main"
     }
 }
