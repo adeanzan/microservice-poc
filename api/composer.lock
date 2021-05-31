@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "888cbf00b807761c81aa7feb62ea0463",
+    "content-hash": "92d82683ddb647495f6caa8433d36bf0",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -4532,6 +4532,41 @@
                 }
             ],
             "time": "2021-04-29T20:47:09+00:00"
+        },
+        {
+            "name": "zan/doctrine-rest-bundle",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zan/doctrine-rest-bundle.git",
+                "reference": "1c5a925ed92e221516a7d03264994fef0fd78fe4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zan/doctrine-rest-bundle/zipball/1c5a925ed92e221516a7d03264994fef0fd78fe4",
+                "reference": "1c5a925ed92e221516a7d03264994fef0fd78fe4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "default-branch": true,
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Zan\\DoctrineRestBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "REST API with doctrine integrations to enable working with large result sets",
+            "support": {
+                "issues": "https://github.com/zan/doctrine-rest-bundle/issues",
+                "source": "https://github.com/zan/doctrine-rest-bundle/tree/main"
+            },
+            "time": "2021-05-31T16:02:30+00:00"
         }
     ],
     "packages-dev": [
@@ -4696,7 +4731,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "zan/doctrine-rest-bundle": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
