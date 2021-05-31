@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92d82683ddb647495f6caa8433d36bf0",
+    "content-hash": "e797e71676afa55a1d78d6cd0ddfccd8",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -4534,6 +4534,41 @@
             "time": "2021-04-29T20:47:09+00:00"
         },
         {
+            "name": "zan/common-bundle",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zan/common-bundle.git",
+                "reference": "d6e545cd9f683304e02772285c213919db748862"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zan/common-bundle/zipball/d6e545cd9f683304e02772285c213919db748862",
+                "reference": "d6e545cd9f683304e02772285c213919db748862",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "default-branch": true,
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Zan\\CommonBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Common code shared among many Symfony applications",
+            "support": {
+                "issues": "https://github.com/zan/common-bundle/issues",
+                "source": "https://github.com/zan/common-bundle/tree/main"
+            },
+            "time": "2021-05-31T17:16:35+00:00"
+        },
+        {
             "name": "zan/doctrine-rest-bundle",
             "version": "dev-main",
             "source": {
@@ -4732,6 +4767,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "zan/common-bundle": 20,
         "zan/doctrine-rest-bundle": 20
     },
     "prefer-stable": true,
