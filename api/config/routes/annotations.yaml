@@ -6,3 +6,7 @@ controllers:
 kernel:
     resource: ../../src/Kernel.php
     type: annotation
+
+zan_doctrine_rest_bundle:
+    resource: '@ZanDoctrineRestBundle/Resources/config/routing.yaml'
+    prefix: /api

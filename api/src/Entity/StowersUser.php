@@ -4,6 +4,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Zan\DoctrineRestBundle\Annotation\ApiEnabled;
 
 /**
  * @ORM\Entity
@@ -15,23 +16,31 @@ class StowersUser
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
+     *
+     * @ApiEnabled
      */
     private $id;
 
     /**
      * @ORM\Column(type="string", length=255, unique=true)
+     *
+     * @ApiEnabled
      */
     private $username;
 
     /**
      * @var ?string
      * @ORM\Column(name="firstName", type="string", length=255, nullable=true)
+     *
+     * @ApiEnabled
      */
     protected $firstName;
 
     /**
      * @var ?string
      * @ORM\Column(name="lastName", type="string", length=255, nullable=true)
+     *
+     * @ApiEnabled
      */
     protected $lastName;
 
